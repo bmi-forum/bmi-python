@@ -3,4 +3,4 @@ from .bmi import Bmi
 
 
 __all__ = ['Bmi']
-__version__ = '0.1.2'
+__version__ = '0.1.3'
