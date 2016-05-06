@@ -7,8 +7,8 @@ from basic_modeling_interface import __version__
 
 setup(name='basic-modeling-interface',
       version=__version__,
-      author='CSDMS',
-      author_email='csdms@colorado.edu',
+      author='Eric Hutton',
+      author_email='eric.hutton@colorado.edu',
       url='https://github.com/bmi-forum/bmi-python',
       license='MIT',
       description='Python bindings for the Basic Modeling Interface',
