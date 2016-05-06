@@ -2,10 +2,11 @@
 from ez_setup import use_setuptools
 use_setuptools()
 from setuptools import setup, find_packages
+from basic_modeling_interface import __version__
 
 
 setup(name='basic-modeling-interface',
-      version='0.1.0',
+      version=__version__,
       author='CSDMS',
       author_email='csdms@colorado.edu',
       url='https://github.com/bmi-forum/bmi-python',
