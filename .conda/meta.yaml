@@ -7,7 +7,17 @@ source:
 
 requirements:
   build:
-    - setuptools
     - python
+    - setuptools
   run:
     - python
+
+test:
+  imports:
+    - basic_modeling_interface
+
+about:
+  home: https://github.com/bmi-forum/bmi-python
+  license: MIT License
+  summary: 'Python bindings for the Basic Modeling Interface'
+  license_family: MIT
