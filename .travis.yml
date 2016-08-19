@@ -1,6 +1,8 @@
 env:
   matrix:
     - TRAVIS_PYTHON_VERSION="2.7"
+  global:
+    secure: fQDopgWxen7KDFRdI1vjZDUh2cV6+MOY1pqeht410uTq9HynLoWduzPN65FV7rxcGSN2uWV77GBU0OZKQTb7j1LP7A2o+Z/Usebc/aGAyG0ev9O54ff7ghaG+dfJ0UZ/Fjt1qgD0EVfIBbnc02MgUnkwR2cio0lUBlamel8rZzo=
 
 os:
   - linux
