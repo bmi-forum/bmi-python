@@ -21,3 +21,6 @@ install:
 
 script:
   - python -c "from basic_modeling_interface import Bmi"
+
+after_success:
+  - bash .ci/travis/deploy_to_anaconda.sh
