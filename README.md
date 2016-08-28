@@ -2,6 +2,7 @@
 [![Anaconda-Server Badge](https://anaconda.org/csdms/basic-modeling-interface/badges/version.svg)](https://anaconda.org/csdms/basic-modeling-interface)
 [![Anaconda-Server Badge](https://anaconda.org/csdms/basic-modeling-interface/badges/installer/conda.svg)](https://conda.anaconda.org/csdms)
 [![Anaconda-Server Badge](https://anaconda.org/csdms/basic-modeling-interface/badges/downloads.svg)](https://anaconda.org/csdms/basic-modeling-interface)
+[![Documentation Status](https://readthedocs.org/projects/bmi-python/badge/?version=latest)](http://bmi-python.readthedocs.io/en/latest/?badge=latest)
 
 # bmi-python
 

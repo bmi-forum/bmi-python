@@ -18,7 +18,8 @@ import os
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('../..'))
 sys.path.insert(0, os.path.abspath('../numpydoc'))
 
 # -- General configuration ------------------------------------------------
@@ -52,7 +53,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'basic_modeling_interface'
+project = u'Basic Model Interface'
 copyright = u'2016, CSDMS'
 author = u'CSDMS'
 
@@ -81,7 +82,8 @@ language = 'en'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+# exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -231,8 +233,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'basic_modeling_interface.tex', u'basic\\_modeling\\_interface Documentation',
-     u'Author', 'manual'),
+    (master_doc, 'basic_model_interface.tex', u'Basic Model Interface Documentation',
+     u'CSDMS', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -261,8 +263,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'basic_modeling_interface', u'basic_modeling_interface Documentation',
-     [author], 1)
+    (master_doc, 'basic_model_interface', u'basic_model_interface Documentation',
+     [u'CSDMS'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -275,8 +277,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'basic_modeling_interface', u'basic_modeling_interface Documentation',
-     author, 'basic_modeling_interface', 'One line description of project.',
+    (master_doc, 'basic_model_interface', u'basic_model_interface Documentation',
+     u'CSDMS', 'basic_model_interface', 'One line description of project.',
      'Miscellaneous'),
 ]
 
