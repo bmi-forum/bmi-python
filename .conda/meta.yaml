@@ -1,6 +1,6 @@
 package:
   name: basic-modeling-interface
-  version: {{"0.1.3" + environ.get('BUILD_STR', '')}}
+  version: {{"0.2" + environ.get('BUILD_STR', '')}}
 
 source:
   path: ..
