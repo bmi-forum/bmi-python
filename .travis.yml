@@ -17,7 +17,7 @@ before_install:
   - bash .ci/travis/install_python.sh
   - export PATH="$HOME/miniconda/bin:$PATH"
   - conda info -a
-  - conda build -q .conda
+  - conda build -q .conda --old-build-string
 
 install:
   - conda install -q basic-modeling-interface --use-local
