@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-"""Interface that describes a model and it's input and output variables."""
+"""Interface that describes a model and its input and output variables."""
 
 
 class BmiInfo(object):
@@ -43,8 +43,6 @@ class BmiInfo(object):
 
         Standard Names do not have to be used within the model.
 
-        Notes
-        -----
         .. code-block:: c
 
             /* C */
