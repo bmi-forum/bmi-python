@@ -100,8 +100,6 @@ class BmiTime(object):
         -----
         CSDMS uses the UDUNITS standard from Unidata.
 
-        Notes
-        -----
         .. code-block:: c
 
             /* C */
